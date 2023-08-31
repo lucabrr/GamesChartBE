@@ -19,7 +19,7 @@ import com.sito.service.UserRecordService;
 
 @RestController
 @RequestMapping("/api/userRecord")
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "https://gamechart-19492.web.app", maxAge = 3600)
 public class UserRecordController {
 	@Autowired UserRecordService urs;
 	
